@@ -3,6 +3,7 @@ var FormattedMessage = require('react-intl').FormattedMessage;
 
 var render = require('../../lib/render.jsx');
 var Page = require('../../components/page/page.jsx');
+var Box = require('../../components/box/box.jsx');
 
 require('./guidelines.scss');
 
@@ -10,10 +11,7 @@ var Guidelines = React.createClass({
     type: 'Guidelines',
     render: function () {
         return (
-            <div className="body">
-                <div className="top">
-                    <h1><FormattedMessage id='guidelines.title' /></h1>
-                </div>
+            <Box title={<FormattedMessage id='guidelines.title' />}>
                 <div className="bottom">
                     <p><FormattedMessage id='guidelines.header' /></p>
                     <ul>
@@ -45,7 +43,7 @@ var Guidelines = React.createClass({
                     <p><FormattedMessage id='guidelines.footer' /></p>
                     <img src="//cdn.scratch.mit.edu/scratchr2/static/images/help/spritesforcommunityguid.png" alt="sprites"/>
                 </div>
-            </div>
+            </Box>
         );
     }
 });
