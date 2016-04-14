@@ -12,10 +12,7 @@ var Guidelines = React.createClass({
         return (
             <div className="body">
                 <div className="top">
-                    <h1>
-                    <FormattedMessage
-                    id: ’guidelines.title’ />
-                    </h1>
+                    <h1><FormattedMessage id='guidelines.title' /></h1>
                 </div>
                 <div className="bottom">
                     <p><FormattedMessage id='guidelines.header' /></p>
