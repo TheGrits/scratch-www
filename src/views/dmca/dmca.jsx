@@ -27,7 +27,6 @@ var Dmca = React.createClass({
         <p><FormattedMessage id='dmca.eyetoeye' /></p>
         <br>
         <p><FormattedMessage id='dmca.afterfiling' /></p>
-        <br>
       </Box>
     );
   }
