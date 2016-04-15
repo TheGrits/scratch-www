@@ -11,7 +11,23 @@ var Dmca = React.createClass({
   render: function () {
     return (
       <Box title={'DMCA'}>
-
+        <p><FormattedMessage id='dmca.intro' /></p>
+        <br>
+        <p>Copyright Agent / Mitchel Resnick</p>
+        <p>MIT Media Laboratory</p>
+        <p>77 Massachusetts Ave</p>
+        <p>Room E14-445A</p>
+        <p>Cambridge, MA 02139</p>
+        <p>Tel: (617) 253-9783</p>
+        <br>
+        <p><FormattedMessage id='dmca.llkresponse' /></p>
+        <br>
+        <p><FormattedMessage id='dmca.assessment' /></p>
+        <br>
+        <p><FormattedMessage id='dmca.eyetoeye' /></p>
+        <br>
+        <p><FormattedMessage id='dmca.afterfiling' /></p>
+        <br>
       </Box>
     );
   }
