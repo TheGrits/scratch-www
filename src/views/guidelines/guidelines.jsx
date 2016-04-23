@@ -28,7 +28,7 @@ var Guidelines = React.createClass({
                         <dt><FormattedMessage id='guidelines.friendlyheader' /></dt>
                         <dd><FormattedMessage id='guidelines.friendlybody' /></dd>
                     </dl>
-                    <div className="guidelines-footer>
+                    <div className="guidelines-footer">
                       <p><FormattedMessage id='guidelines.footer' /></p>
                       <img src="//cdn.scratch.mit.edu/scratchr2/static/images/help/spritesforcommunityguid.png" alt="sprites"/>
                     </div>
