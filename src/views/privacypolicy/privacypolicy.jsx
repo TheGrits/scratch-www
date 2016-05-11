@@ -12,7 +12,7 @@ var Privacypolicy = React.createClass({
         return (
             <Box title={<FormattedMessage id='privacypolicy.title' />}>
                 <p><FormattedHTMLMessage id='privacypolicy.introOne' /></p>
-                <p><FormattedMessage id='privacypolicy.introTwo' /></p>
+                <p><i><FormattedMessage id='privacypolicy.introTwo' /></i></p>
                 <h3><FormattedMessage id='privacypolicy.whatinfo' /></h3>
                 <p>
                     <b><FormattedMessage id='privacypolicy.accountinfotitle' /></b>
