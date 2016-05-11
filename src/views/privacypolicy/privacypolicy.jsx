@@ -64,3 +64,5 @@ var Privacypolicy = React.createClass({
         );
     }
 )};
+
+render(<Page><Privacypolicy /></Page>, document.getElementById('app'));
