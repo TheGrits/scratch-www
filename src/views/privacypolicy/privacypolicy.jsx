@@ -46,7 +46,7 @@ var Privacypolicy = React.createClass({
                     <li><FormattedMessage id='privacypolicy.thirdparty' /></li>
                     <li>
                         <FormattedMessage id='privacypolicy.exceptions' />
-                        <ul className="whitebullets">
+                        <ul>
                             <li><FormattedMessage id='privacypolicy.lawrequirement' /></li>
                             <li><FormattedMessage id='privacypolicy.technicalreasons' /></li>
                         </ul>
