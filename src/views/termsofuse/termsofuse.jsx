@@ -13,7 +13,7 @@ var Termsofuse = React.createClass({
                     <p>
                         1.1 These Terms of Use constitute an agreement between
                          you and the Scratch Team that governs your use of{' '}
-                         <a href="scratch.mit.edu">scratch.mit.edu<a/>{' '}
+                         <a href="scratch.mit.edu">scratch.mit.edu</a>{' '}
                          and all associated services, including but not limited
                          to the <a href="day.scratch.mit.edu">Scratch Day</a>{' '}
                          and <a href="scratchx.org">ScratchX</a> websites (collectively
