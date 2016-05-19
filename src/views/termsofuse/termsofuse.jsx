@@ -42,11 +42,44 @@ var Termsofuse = React.createClass({
                     </p>
                     <p>
                         1.4 The Scratch Team may change the Terms of Use from time to
-                        time. You can always find the latest version of the Terms of Use
-                        at <a href="/terms_of_use">http://scratch.mit.edu/terms_of_use</a>.
-                        The date of the most recent revisions will appear on this page.
-                        Your continued use of the Services constitutes your acceptance
-                        of any changes to or revisions of the Terms of Use.
+                         time. You can always find the latest version of the Terms of Use
+                         at <a href="/terms_of_use">http://scratch.mit.edu/terms_of_use</a>.
+                         The date of the most recent revisions will appear on this page.
+                         Your continued use of the Services constitutes your acceptance
+                         of any changes to or revisions of the Terms of Use.
+                    </p>
+                    <h4>2. Account Creation and Maintenance</h4>
+                    <p>
+                        2.1 In order to use some features of the Services, you will need to
+                         register with Scratch and create an account. Creating an account is
+                         optional, but without an account you will not be able to save or
+                         publish projects or comments on Scratch. When registering for a
+                         personal account, you will be asked to provide certain personal
+                         information, such as your email address, gender, birth month and
+                         year, and country. Please see Scratch's{' '}
+                         <a href="/privacy_policy">Privacy Policy</a> for Scratch's data
+                         retention and usage policies.
+                    </p>
+                    <p>
+                        2.2 You are responsible for keeping your password secret and your
+                         account secure. You are solely responsible for any use of your
+                         account, even if your account is used by another person. If any use
+                         of your account violates the Terms of Service, your account may be
+                         suspended or deleted.
+                    </p>
+                    <p>
+                        2.3 You may not use another person's Scratch account without permission.
+                    </p>
+                    <p>
+                        2.4 Account names cannot be changed. If you want a different account name,
+                         create a new account and copy your existing projects over by hand.
+                    </p>
+                    <p>
+                        2.5 If you have reason to believe that your account is no longer secure
+                         (for example, in the event of a loss, theft, or unauthorized disclosure
+                         of your password), promptly change your password. If you cannot access
+                         your account to change your password, notify us at{' '}
+                         <a href="mailto:help@scratch.mit.edu".
                     </p>
                 </Box>
             </div>
