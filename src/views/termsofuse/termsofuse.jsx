@@ -13,12 +13,12 @@ var Termsofuse = React.createClass({
                     <p>
                         1.1 These Terms of Use constitute an agreement between
                          you and the Scratch Team that governs your use of{' '}
-                         <a href="scratch.mit.edu">scratch.mit.edu</a>{' '}
+                         <a href="https://scratch.mit.edu">scratch.mit.edu</a>{' '}
                          and all associated services, including but not limited
-                         to the <a href="day.scratch.mit.edu">Scratch Day</a>{' '}
-                         and <a href="scratchx.org">ScratchX</a> websites (collectively
-                         "Scratch"). The Scratch Team is part of the Lifelong
-                         Kindergarten Group in the Media Laboratory at the
+                         to the <a href="http://day.scratch.mit.edu">Scratch Day</a>{' '}
+                         and <a href="http://scratchx.org">ScratchX</a> websites 
+                         (collectively "Scratch"). The Scratch Team is part of the
+                         Lifelong Kindergarten Group in the Media Laboratory at the
                          Massachusetts Institute of Technology ("MIT"). Please
                          read the Terms of Use carefully. By using Scratch you
                          affirm that you have read, understood, and accepted
