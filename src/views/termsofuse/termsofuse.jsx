@@ -151,7 +151,7 @@ var Termsofuse = React.createClass({
                         3.6 Commercial use of Scratch, user-generated content, and support
                          materials is permitted under the{' '}
                          <a href="https://creativecommons.org/licenses/by-sa/2.0/">
-                         Creative Commons Attribution-ShareAlike 2.0 license. However,
+                         Creative Commons Attribution-ShareAlike 2.0 license</a>. However,
                          the Scratch Team reserves the right to block any commercial use
                          of Scratch that, in the Scratch Team's sole discretion, is harmful
                          to the community. Harmful commercial use includes spamming or
