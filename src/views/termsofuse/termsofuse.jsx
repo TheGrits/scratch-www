@@ -81,6 +81,86 @@ var Termsofuse = React.createClass({
                          your account to change your password, notify us at{' '}
                          <a href="mailto:help@scratch.mit.edu"></a>.
                     </p>
+                    <h4>3. Rules of Usage</h4>
+                    <p>
+                        3.1 The Scratch Team supports freedom of expression. However, Scratch is
+                         intended for a wide audience, and some content is inappropriate for the
+                         Scratch community. You may not use the Scratch service in any way, that:
+                        <ol>
+                            <li>
+                                Promotes bigotry, discrimination, hatred, or violence against any
+                                 individual or group;
+                            </li>
+                            <li>
+                                Threatens, harasses, or intimidates any other person, whether that
+                                 person is a Scratch user or not;
+                            </li>
+                            <li>Contains foul language or personal attacks;</li>
+                            <li>Contains sexually explicit or graphically violent material;</li>
+                            <li>
+                                Provides instructions on how to commit illegal activities or obtain
+                                 illegal products;
+                            </li>
+                            <li>
+                                Except in connection with organizing Scratch day events, asks any
+                                 other user for personally identifying information, contact
+                                 information, or passwords; or
+                            </li>
+                            <li>
+                                Exposes any others person's personally identifying information,
+                                 contact information, or passwords without that person's permission.
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        3.3 You agree to comply with all applicable laws and regulations when you use
+                         Scratch. You may not use Scratch in any unlawful way, including to harass,
+                         stalk, or defame any other person.
+                    </p>
+                    <p>
+                        3.4 You may not impersonate, imitate or pretend to be somebody else when using
+                         the Services.
+                    </p>
+                    <p>
+                        3.5 You agree not to use Scratch in any way intended to disrupt the service,
+                         gain unauthorized access to the service, or interfere with any other user's
+                         ability to use the service. Prohibited activities include, but are not limited
+                         to:
+                        <ol>
+                            <li>
+                                Posting content deliberately designed to crash the Scratch
+                                 website or editor;
+                            </li>
+                            <li>
+                                Linking to pages containing viruses or malware;
+                            </li>
+                            <li>
+                                Using administrator passwords or pretending to be an administrator;
+                            </li>
+                            <li>
+                                Repeatedly posting the same material, or "spamming";
+                            </li>
+                            <li>
+                                Using alternate accounts or organizing voting groups to manipulate
+                                 site statistics, such as purposely trying to get on the "What the
+                                 Community is Loving/Remixing" rows of the front page.
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        3.6 Commercial use of Scratch, user-generated content, and support
+                         materials is permitted under the{' '}
+                         <a href="https://creativecommons.org/licenses/by-sa/2.0/">
+                         Creative Commons Attribution-ShareAlike 2.0 license. However,
+                         the Scratch Team reserves the right to block any commercial use
+                         of Scratch that, in the Scratch Team's sole discretion, is harmful
+                         to the community. Harmful commercial use includes spamming or
+                         repeated advertisement through projects, comments, or forum posts.
+                    </p>
+                    <p>
+                        3.7 You agree not to post links to any content outside of the
+                        Scratch website, if to do so would violate any part of the Terms of Use.
+                    </p>
                 </Box>
             </div>
         );
