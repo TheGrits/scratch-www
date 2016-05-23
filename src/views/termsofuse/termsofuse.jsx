@@ -222,6 +222,59 @@ var Termsofuse = React.createClass({
                          from your user-generated content and from Scratch Day events you
                          may organize or host.
                     </p>
+                    <h4>5. Scratch Content and Licensing</h4>
+                    <p>
+                        5.1 Except for any user-generated content, the Scratch Team owns and
+                         retains all rights in and to the Scratch code, the design,
+                         functionality, and architecture of Scratch, and any software or
+                         content provided through Scratch (collectively "the Scratch IP").
+                         If you want to use Scratch in a way that is not allowed by these
+                         Terms of Use, you must first contact the Scratch Team. Except for
+                         any rights explicitly granted under these Terms of Use, you are not
+                         granted any rights in and to any Scratch IP.
+                    </p>
+                    <p>
+                        5.2 Scratch provides support materials, including images, sounds,
+                         video, and sample code, to help users build projects. Support materials
+                         are licensed under the{' '}
+                         <a href="https://creativecommons.org/licenses/by-sa/2.0/">
+                         Creative Commons Attribution-ShareAlike 2.0 license</a>. You may also
+                         use screenshots of Scratch under the same license. Please note that
+                         this does not apply to materials that are also trademarked by the
+                         Scratch Team or other parties as described in parts 5.4 and 5.5, below.
+                         <br/>
+                         The Creative Commons Attribution-ShareAlike 2.0 license requires you to
+                         attribute any material you use to the original author. When you use
+                         Scratch support materials, or screenshots of the Scratch website,
+                         please use the following attribution: "Scratch is developed by the
+                         Lifelong Kindergarten Group at the MIT Media Lab. See
+                         http://scratch.mit.edu."
+                    </p>
+                    <p>
+                        5.3 The source code for Scratch 1.4 is available for download and subject
+                         to the copyright notice as indicated on the <a href="/info/faq">Scratch FAQ</a>
+                         {' '}page.
+                    </p>
+                    <p>
+                        5.4 The Scratch name, Scratch logo, Scratch Day logo, Scratch Cat, and Gobo
+                         are Trademarks owned by the Scratch Team. The MIT name and logo are Trademarks
+                         owned by the Massachusetts Institute of Technology. Unless you are licensed by
+                         Scratch under a specific licensing program or agreement, you many not use
+                         these logos to label, promote, or endorse any product or service. You may use
+                         the Scratch Logo to refer to the Scratch website and programming language.
+                    </p>
+                    <p>
+                        5.5 The Scratch support materials library may contain images and sounds that
+                         are trademarked by third parties. The fact that materials are included in
+                         the Scratch support materials library does not in any way limit or reduce 
+                         intellectual property rights, including trademark rights, otherwise
+                         available to the materials' owners. Nothing in these Terms of Use or the
+                         Creative Commons 2.0 license will be construed to limit or reduce any
+                         party's rights in that party's valid trademarks. You may not use these
+                         materials to label, promote, or endorse any product or service. You are
+                         solely responsible for any violation of a third party's intellectual
+                         property rights caused by your misuse of these materials.
+                    </p>
                 </Box>
             </div>
         );
