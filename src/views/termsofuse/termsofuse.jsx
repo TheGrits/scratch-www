@@ -161,6 +161,67 @@ var Termsofuse = React.createClass({
                         3.7 You agree not to post links to any content outside of the
                         Scratch website, if to do so would violate any part of the Terms of Use.
                     </p>
+                    <h4>4. User-Generated Content and Licensing</h4>
+                    <p>
+                        4.1 For the purposes of the Terms of Use, "user-generated content"
+                         includes any projects, comments, forum posts, or links to third
+                         party websites that a user submits to Scratch.
+                    </p>
+                    <p>
+                        4.2 The Scratch Team encourages everyone to foster creativity by
+                         freely sharing code, art, music, and other works. However, we
+                         also understand the need for individuals and companies to protect
+                         their intellectual property rights. You are responsible for making
+                         sure you have the necessary rights, licenses, or permission for
+                         any user-generated content you submit to Scratch.
+                    </p>
+                    <p>
+                        4.3 All user-generated content you submit to Scratch is licensed
+                         to and through Scratch under the{' '}
+                         <a href="https://creativecommons.org/licenses/by-sa/2.0/">
+                         Creative Commons Attribution-ShareAlike 2.0 license</a>. This
+                         allows others to view and remix your content. This license also
+                         allows the Scratch Team to display, distribute, and reproduce
+                         your content on the Scratch website, through social media
+                         channels, and elsewhere. If you do not want to license your
+                         content under this license, then do not share it on Scratch.
+                    </p>
+                    <p>
+                        4.4 You may only submit user-generated projects that were created
+                         with (1) the Scratch website editor or (2) an unmodified copy of
+                         the Scratch editor compiled from the source code described in
+                         Section 5.3. You may not upload any projects that were created, by
+                         you or by anyone else, with a modified version of the Scratch editor.
+                    </p>
+                    <p>
+                        4.5 Although the Scratch Team requires all users to comply with
+                         these Terms of Use, some inappropriate user-generated content
+                         may be submitted and displayed on the Scratch website. You
+                         understand that when you use Scratch you may be exposed to
+                         user-generated content that you find objectionable or offensive.
+                         If you see any content that violates the Community Guidelines
+                         or Terms of Use, please let us know by using the "Report this"
+                         button. You only need to report an item once. The Scratch Team
+                         reviews reported content every day.
+                    </p>
+                    <p>
+                        4.6 In addition to reviewing reported user-generated content, the
+                         Scratch Team reserves the right, but is not obligated, to monitor
+                         all uses of the Scratch service. The Scratch Team may edit, move,
+                         or delete any content that violates the Terms of Use or Community
+                         Guidelines, without notice.
+                    </p>
+                    <p>
+                        4.7 All user-generated content is provided as-is. The Scratch Team
+                         makes no warranties about the accuracy or reliability of any
+                         user-generated content available through Scratch and does not
+                         endorse Scratch Day events or vet or verify information posted in
+                         connection with said events. The Scratch Team does not endorse any
+                         views, opinions, or advice expressed in user-generated content. You
+                         agree to relieve the Scratch Team of any and all liability arising
+                         from your user-generated content and from Scratch Day events you
+                         may organize or host.
+                    </p>
                 </Box>
             </div>
         );
