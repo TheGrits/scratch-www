@@ -275,6 +275,32 @@ var Termsofuse = React.createClass({
                          solely responsible for any violation of a third party's intellectual
                          property rights caused by your misuse of these materials.
                     </p>
+                    <h4>6. Digital Millennium Copyright Act (DMCA)</h4>
+                    <p>
+                        6.1 If you are a copyright holder and believe that content on Scratch
+                         violates your rights, you may send a DMCA notification to{' '}
+                         <a href="mailto:copyright@scratch.mit.edu">copyright@scratch.mit.edu</a>.
+                         For more information, including the information that must be included
+                         in a DMCA notification, see our full <a href="/DMCA">DMCA Policy</a> and
+                         the text of the DMCA,{' '}
+                         <a href="http://www.law.cornell.edu/uscode/text/17/512">17 U.S.C. § 512</a>.
+                    </p>
+                    <p>
+                        6.2 If you are a Scratch user and you believe that your content did not
+                         constitute a copyright violation and was taken down in error, you may
+                         send a notification to{' '}
+                         <a href="mailto:copyright@scratch.mit.edu">copyright@scratch.mit.edu</a>.
+                         Please include:
+                        <ul>
+                            <li>Your Scratch username and email address;</li>
+                            <li>The specific content you believe was taken down in error; and</li>
+                            <li>
+                                A brief statement of why you believe there was no copyright violation
+                                 (e.g., the content was not copyrighted, you had permission to use the
+                                 content, or your use of the content was a "fair use").
+                            </li>
+                        </ul>
+                    </p>
                 </Box>
             </div>
         );
