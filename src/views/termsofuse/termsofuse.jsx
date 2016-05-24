@@ -422,6 +422,89 @@ var Termsofuse = React.createClass({
                          of Use and supersedes all previous agreements with the Scratch Team relating
                          to the use of Scratch. Revision date: 4 March 2015.
                     </p>
+                    <h3>Appendix A: Additional Terms for Scratch Day Website</h3>
+                    <p>
+                        The following additional terms also govern your access to and use of web
+                         pages hosted within day.scratch.mit.edu/ (collectively, the “Scratch Day
+                         Site”). All of the terms set forth in the general Terms of Use above also
+                         apply to the Scratch Day Site, unless we clearly state otherwise.
+                    </p>
+                    <h4>1. Privacy Policy</h4>
+                    <p>
+                        The Scratch Day Site Privacy Policy, not the Scratch Privacy Policy,
+                         describes how the Scratch Team uses, collects, and stores information
+                         it collects through the Scratch Day Site. By using the Scratch Day
+                         Site, you agree that you are comfortable with the Privacy Policy.
+                    </p>
+                    <h4>2. Account Creation and Maintenance</h4>
+                    <p>
+                        2.1 In order to post an event to the Scratch Day Site, you will need
+                         to register and create an account. This account is a separate account
+                         from your Scratch account. All registrants must be over 18 years of
+                         age. When registering for a personal account, you will be asked to
+                         provide certain personal information, such as your email address,
+                         first and last name, and Scratch username (optional). Please see the
+                         Scratch Day Site Privacy Policy for Scratch’s data retention and usage
+                         policies.
+                    </p>
+                    <p>
+                        2.2 You are responsible for keeping your password secret and your account
+                         secure. You are solely responsible for any use of your account, even if
+                         your account is used by another person. If any use of your account
+                         violates the Terms of Use, your account may be suspended or deleted.
+                    </p>
+                    <p>
+                        2.3 If you have reason to believe that your account is no longer secure
+                         (for example, in the event of a loss, theft, or unauthorized disclosure
+                         of your password), promptly change your password. If you cannot access
+                         your account to change your password, notify us at{' '}
+                         <a href="mailto:scratchday@media.mit.edu">scratchday@media.mit.edu</a>
+                    </p>
+                    <p>
+                        2.4 The terms set forth in this section apply to the Scratch Day Site.
+                         The Account Creation and Maintenance terms in the general Terms of Use
+                         do not apply to the Scratch Day Site.
+                    </p>
+                    <h4>3. No Endorsement</h4>
+                    <p>
+                        You understand that neither MIT, nor the Scratch Team, nor the Code to
+                         Learn Foundation endorses any Scratch Day event. If you are hosting a
+                         Scratch Day event, you may not state or imply that MIT, the Scratch
+                         Team, or the Code to Learn Foundation has endorsed your event.
+                    </p>
+                    <h3>Appendix B: Additional Terms for ScratchX Website</h3>
+                    <p>
+                        The following additional terms also govern your access to and use of web
+                         pages hosted within scratchx.org (collectively, the “ScratchX Site”).
+                         All of the terms set forth in the general Terms of Use above also apply
+                         to the ScratchX Site, unless we clearly state otherwise.
+                    </p>
+                    <h4>1. ScratchX and GitHub</h4>
+                    <p>
+                        The ScratchX Site provides a platform for developers to link their
+                         experimental extensions to Scratch. However, we do not host those
+                         extensions or save them on the ScratchX site. All the extensions loaded
+                         on to ScratchX are hosted publicly on independent developers’ accounts
+                         on GitHub. Your use of GitHub is subject to GitHub’s Terms of Service
+                         and Privacy.
+                    </p>
+                    <h4>2. Privacy Policy</h4>
+                    <p>
+                        The ScratchX Site Privacy Policy, not the Scratch Privacy Policy,
+                         describes how the Scratch Team uses, collects, and stores information
+                         it collects through the ScratchX Site. By using the ScratchX Site, you
+                         agree to the terms of the Privacy Policy.
+                    </p>
+                    <h4>3. No Endorsement</h4>
+                    <p>
+                        By using ScratchX, you understand that neither MIT, nor the Scratch Team,
+                         nor the Code to Learn Foundation endorses any ScratchX experimental
+                         extension. If you are a developer linking to your own experimental
+                         extension via the ScratchX site, you may not state or imply that MIT,
+                         the Scratch Team, or the Code to Learn Foundation has endorsed your
+                         extension.
+                    </p>
+                    <p><b>The Scratch Terms of Use was last updated: April 2016</b></p>
                 </Box>
             </div>
         );
