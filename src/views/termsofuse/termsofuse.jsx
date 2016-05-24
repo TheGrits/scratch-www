@@ -372,6 +372,56 @@ var Termsofuse = React.createClass({
                          for damages or harms arising out of user-generated content or
                          Scratch Day events.
                     </b></p>
+                    <h4>12. Jurisdiction</h4>
+                    <p>
+                        Scratch is offered by the Scratch Team from its facilities in the United
+                         States. The Scratch Team makes no representations that Scratch is
+                         appropriate or available for use in other locations. Those who access
+                         or use Scratch are responsible for compliance with local law.
+                    </p>
+                    <h4>13. Choice of Law and Venue</h4>
+                    <p>
+                        You agree that these Terms of Use, for all purposes, shall be governed
+                         and construed in accordance with the laws of the Commonwealth of
+                         Massachusetts applicable to contracts to be wholly performed therein,
+                         and any action based on, relating to, or alleging a breach of the
+                         Terms of Use must be brought in a state or federal court in Suffolk
+                         County, Massachusetts. In addition, both parties agree to submit to
+                         the exclusive personal jurisdiction and venue of such courts.
+                    </p>
+                    <p>
+                        If you are a federal, state, or local government entity in the United
+                         States using Scratch in your official capacity and legally unable to
+                         accept the controlling law, jurisdiction or venue clauses above, then
+                         those clauses do not apply to you. For such U.S. federal government
+                         entities, these Terms and any action related thereto will be governed
+                         by the laws of the United States of America (without reference to
+                         conflict of laws) and, in the absence of federal law and to the extent
+                         permitted under federal law, the laws of the Commonwealth of
+                         Massachusetts (excluding choice of law).
+                    </p>
+                    <h4>14. Choice of Language</h4>
+                    <p>
+                        If the Scratch Team provides you with a translation of the English language
+                         version of these Terms of Use, the Privacy Policy, or any other policy,
+                         then you agree that the translation is provided for informational purposes
+                         only and does not modify the English language version. In the event of a
+                         conflict between a translation and the English version, the English version
+                         will govern.
+                    </p>
+                    <h4>15. No Waiver</h4>
+                    <p>
+                        No waiver of any term of these Terms of Use shall be deemed a further or
+                         continuing waiver of such term or any other term, and the Scratch Team's
+                         failure to assert any right or provision under these Terms of Use shall
+                         not constitute a waiver of such right or provision.
+                    </p>
+                    <h4>16. Entire Agreement</h4>
+                    <p>
+                        This document, together with all appendices, constitutes the entire Terms
+                         of Use and supersedes all previous agreements with the Scratch Team relating
+                         to the use of Scratch. Revision date: 4 March 2015.
+                    </p>
                 </Box>
             </div>
         );
