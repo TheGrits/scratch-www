@@ -323,6 +323,55 @@ var Termsofuse = React.createClass({
                          of third party websites. You agree to relieve the Scratch Team of
                          any and all liability arising from third party websites.
                     </p>
+                    <h4>9. Indemnification</h4>
+                    <p>
+                        You agree to indemnify MIT, the Scratch Team, the Scratch Foundation,
+                         and all their affiliates, employees, faculty members, fellows,
+                         students, agents, representatives, third party service providers,
+                         and members of their governing boards (all of which are "Scratch
+                         Entities"), and to defend and hold each of them harmless, from any
+                         and all claims and liabilities (including attorneys' fees) arising
+                         out of or related to your breach of the Terms of Service or your
+                         use of Scratch.
+                    </p>
+                    <p>
+                        For federal government agencies, provisions in the Terms of Use
+                         relating to Indemnification shall not apply to your Official Use,
+                         except to the extent expressly authorized by federal law. For
+                         state and local government agencies in the United States, Terms
+                         of Use relating to Indemnification shall apply to your Official
+                         Use only to the extent authorized by the laws of your jurisdiction.
+                    </p>
+                    <h4>10. Disclaimer of Warranty</h4>
+                    <p><b>
+                        You acknowledge that you are using Scratch at your own risk. Scratch
+                         is provided "as is," and the Scratch Entities hereby expressly
+                         disclaim any and all warranties, express and implied, including but
+                         not limited to any warranties of accuracy, reliability, title,
+                         merchantability, non-infringement, fitness for a particular purpose
+                         or any other warranty, condition, guarantee or representation,
+                         whether oral, in writing or in electronic form, including but not
+                         limited to the accuracy or completeness of any information contained
+                         therein or provided by Scratch. Without limiting the foregoing, the
+                         Scratch Entities disclaim any and all warranties, express and implied,
+                         regarding user-generated content and Scratch Day events. The Scratch
+                         Entities and their third party service providers do not represent or
+                         warrant that access to Scratch will be uninterrupted or that there
+                         will be no failures, errors or omissions or loss of transmitted
+                         information, or that no viruses will be transmitted through Scratch
+                         services.
+                    </b></p>
+                    <h4>11. Limitation of Liability</h4>
+                    <p><b>
+                        The Scratch Entities shall not be liable to you or any third parties
+                         for any direct, indirect, special, consequential or punitive damages
+                         of any kind, regardless of the type of claim or the nature of the
+                         cause of action, even if the Scratch Team has been advised of the
+                         possibility of such damages. Without limiting the foregoing, the
+                         Scratch Entites shall have no liability to you or any third parties
+                         for damages or harms arising out of user-generated content or
+                         Scratch Day events.
+                    </b></p>
                 </Box>
             </div>
         );
