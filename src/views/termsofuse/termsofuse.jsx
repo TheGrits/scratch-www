@@ -301,6 +301,28 @@ var Termsofuse = React.createClass({
                             </li>
                         </ul>
                     </p>
+                    <h4>7. Suspension and Termination of Accounts</h4>
+                    <p>
+                        7.1 Scratch has the right to suspend your account for violations of the
+                         Terms of Use or Community Guidelines. Repeat violators may have their
+                         account deleted. The Scratch Team reserves the sole right to determine
+                         what constitutes a violation of the Terms of Use or Community Guidelines.
+                         The Scratch Team also reserves the right to terminate any account used
+                         to circumvent prior enforcement of the Terms of Use.
+                    </p>
+                    <p>
+                        7.2 If you want to delete or temporarily disable your account, please
+                         email <a href="mailto:help@scratch.mit.edu">help@scratch.mit.edu</a>.
+                    </p>
+                    <h4>8. Third Party Websites</h4>
+                    <p>
+                        8.1 Content on Scratch, including user-generated content, may include
+                         links to third party websites. The Scratch Team is not capable of
+                         reviewing or managing third party websites, and assumes no
+                         responsibility for the privacy practices, content, or functionality
+                         of third party websites. You agree to relieve the Scratch Team of
+                         any and all liability arising from third party websites.
+                    </p>
                 </Box>
             </div>
         );
