@@ -118,33 +118,23 @@ var Developers = React.createClass({
 
                         <FlexRow className="sidebar-row">
                             <div className="body-copy column">
-                                <h3>Design Principles</h3>
+                                <h3><FormattedMessage id='developers.designPrinciplesTitle' /></h3>
                                 <dl>
-                                    <dt>Low Floor & Wide Walls</dt>
+                                    <dt><FormattedMessage id='developers.designPrinciplesRoomTitle' /></dt>
                                     <dd>
-                                        In order to encourage a varied and diverse set of interactions, we{' '}
-                                        explicitly include elements and features that are easy for kids to{' '}
-                                        understand (low floor), but general enough to support diverse uses (wide walls).
+                                        <FormattedMessage id='developers.designPrinciplesRoomBody' />
                                     </dd>
-                                    <dt>Make it as Simple as Possible — And Maybe Even Simpler</dt>
+                                    <dt><FormattedMessage id='developers.designPrinciplesSimpleTitle' /></dt>
                                     <dd>
-                                        Despite the common drive to add more features to software products, we{' '}
-                                        have found that reducing the number of features often improves the user{' '}
-                                        experience. What initially seems like a constraint or limitation can foster{' '}
-                                        new forms of creativity.
+                                        <FormattedMessage id='developers.designPrinciplesSimpleBody' />
                                     </dd>
-                                    <dt>Many Paths, Many Styles</dt>
+                                    <dt><FormattedMessage id='developers.designPrinciplesGlobalTitle' /></dt>
                                     <dd>
-                                        Many math and science activities have traditionally been biased towards{' '}
-                                        specific populations. By paying special attention to creating accessible{' '}
-                                        and appealing technologies, we are working to close the gap.
+                                        <FormattedMessage id='developers.designPrinciplesGlobalBody' />
                                     </dd>
-                                    <dt>Design for Tinkerability</dt>
+                                    <dt><FormattedMessage id='developers.designPrinciplesTinkerTitle' /></dt>
                                     <dd>
-                                        We believe that the learning process is inherently iterative. Tinkerers{' '}
-                                        start by exploring and experimenting, then revising and refining their{' '}
-                                        goals and creations. To support this style of interaction, we design{' '}
-                                        our interfaces to encourage quick experimentation and rapid cycles of iteration.
+                                        <FormattedMessage id='developers.designPrinciplesTinkerBody' />
                                     </dd>
                                 </dl>
                             </div>
@@ -153,27 +143,23 @@ var Developers = React.createClass({
 
                     <section id="donate">
                         <span className="nav-spacer"></span>
-                        <h2>Donate</h2>
+                        <h2><FormattedMessage id='developers.donateTitle' /></h2>
                         <p>
-                            We are pleased to provide Scratch free of charge. If you enjoy using Scratch, please{' '}
-                            consider <a href="https://secure.donationpay.org/scratchfoundation/">making a donation{' '}
-                            to support Scratch</a>. Donations of any size are appreciated.
+                            <FormattedHTMLMessage id='developers.donateIntro' />
                         </p>
                         <p>
-                            Your donation to the Scratch Foundation will be used to support future development of{' '}
-                            Scratch software and the Scratch website.
+                            <FormattedMessage id='developers.donateBody' />
                         </p>
                         <p>
-                            Thanks for supporting Scratch!
+                            <FormattedMessage id='developers.donateThanks' />
                         </p>
                     </section>
 
                     <section id="partners">
                         <span className="nav-spacer"></span>
-                        <h3>Partners</h3>
+                        <h3><FormattedMessage id='developers.partnersTitle' /></h3>
                         <p>
-                            The creation and maintenance of this open source code would not be possible without{' '}
-                            generous technical and financial support from our partners:
+                            <FormattedMessage id='developers.partnersIntro' />
                         </p>
 
                         <FlexRow className="logos">
@@ -189,61 +175,44 @@ var Developers = React.createClass({
                     <div className="inner">
                         <section id="faq">
                             <span className="nav-spacer"></span>
-                            <h3>FAQ</h3>
+                            <h3><FormattedMessage id='developers.faqTitle' /></h3>
                             <FlexRow className="three-col-row">
                                 <div className="faq column">
-                                    <h4>Where can I learn more about Scratch?</h4>
+                                    <h4><FormattedMessage id='developers.faqAboutTitle' /></h4>
                                     <p>
-                                        Scratch is a free programming language and online community where young{' '}
-                                        people can create their own interactive stories, games, and animations.{' '}
-                                        Scratch is a project of the{' '}
-                                        <a href="https://llk.media.mit.edu/">Lifelong Kindergarten</a>{' '}
-                                        Group at the <a href="http://media.mit.edu/">MIT Media Lab</a>.{' '}
-                                        You can learn more about Scratch{' '}
-                                        <a href="https://scratch.mit.edu/about">here</a>.
+                                        <FormattedHTMLMessage id='developers.faqAboutBody' />
                                     </p>
                                 </div>
                                 <div className="faq column">
-                                    <h4>Are there rules to using this code in my application?</h4>
+                                    <h4><FormattedMessage id='developers.faqRulesTitle' /></h4>
                                     <p>
-                                        You may use this code in accordance with the license which governs{' '}
-                                        each project. We also strongly encourage you to consider the learning{' '}
-                                        and design principles (above, on this page) when building creative{' '}
-                                        learning experiences for kids of all ages.
+                                        <FormattedMessage id='developers.faqRulesBody' />
                                     </p>
                                 </div>
                                 <div className="faq column">
                                     <h4>
-                                        Am I allowed to use the name "Scratch Blocks" in the description of my{' '}
-                                        app and other public messaging?
+                                        <FormattedMessage id='developers.faqNameTitle' />
                                     </h4>
                                     <p>
-                                        If you wish, you can publicly state that your application is powered by{' '}
-                                        Scratch Blocks. If you do so, we would also encourage you to link back to{' '}
-                                        the code repository.
+                                        <FormattedMessage id='developers.faqNameBody' />
                                     </p>
                                 </div>
                                 <div className="faq column">
-                                    <h4>Are you releasing more code and when?</h4>
+                                    <h4><FormattedMessage id='developers.faqReleasesTitle' /></h4>
                                     <p>
-                                        We plan to open source additional code relating to the Scratch programming{' '}
-                                        language over the next few months. Keep an eye on this page!
+                                        <FormattedMessage id='developers.faqReleasesBody' />
                                     </p>
                                 </div>
                                 <div className="faq column">
-                                    <h4>What’s the difference between Blockly and Scratch Blocks?</h4>
+                                    <h4><FormattedMessage id='developers.faqDifferencesTitle' /></h4>
                                     <p>
-                                        Scratch Blocks builds upon the Blockly code base, and is specifically{' '}
-                                        designed with our principles in mind to support creative learning experiences.
+                                        <FormattedMessage id='developers.faqDifferencesBody' />
                                     </p>
                                 </div>
                                 <div className="faq column">
-                                    <h4>I’d like to collaborate. How do I get in touch?</h4>
+                                    <h4><FormattedMessage id='developers.faqCollabTitle' /></h4>
                                     <p>
-                                        You can reach us over on <a href="https://github.com/LLK/">github</a> or{' '}
-                                        you can send an email to{' '}
-                                        <a href="mailto:help@scratch.mit.edu">help@scratch.mit.edu.</a>{' '}
-                                        We look forward to hearing from you!
+                                        <FormattedHTMLMessage id='developers.faqCollabBody' />
                                     </p>
                                 </div>
                             </FlexRow>
