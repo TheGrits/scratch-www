@@ -1,6 +1,9 @@
 var React = require('react');
 var render = require('../../lib/render.jsx');
 
+var FormattedHTMLMessage = require('react-intl').FormattedHTMLMessage;
+var FormattedMessage = require('react-intl').FormattedMessage;
+
 var Page = require('../../components/page/www/page.jsx');
 var FlexRow = require('../../components/flex-row/flex-row.jsx');
 var SubNavigation = require('../../components/subnavigation/subnavigation.jsx');
@@ -15,38 +18,36 @@ var Developers = React.createClass({
             <div className="developers">
                 <TitleBanner className="masthead">
                     <div className="inner">
-                        <h1>Scratch for Developers</h1>
+                        <h1><FormattedMessage id='developers.title' /></h1>
                         <p className="intro">
-                            On this page, you’ll find information about open source projects created and maintained{' '}
-                            by the <a href="https://scratch.mit.edu/info/credits">Scratch Team at MIT</a>, as well{' '}
-                            as our thoughts on best practices for designing learning experiences for children.
+                            <FormattedMessage id='developers.intro' />
                         </p>
                     </div>
                     <div className="band">
                         <SubNavigation className="inner">
                             <a href="#projects">
                                 <li>
-                                    Projects
+                                    <FormattedMessage id='developers.projectsTitle' />
                                 </li>
                             </a>
                             <a href="#principles">
                                 <li>
-                                    Principles
+                                    <FormattedMessage id='developers.principlesTitle' />
                                 </li>
                             </a>
                             <a href="#donate">
                                 <li>
-                                    Donate
+                                    <FormattedMessage id='developers.donateTitle' />
                                 </li>
                             </a>
                             <a href="#partners">
                                 <li>
-                                    Partners
+                                    <FormattedMessage id='developers.partnersTitle' />
                                 </li>
                             </a>
                             <a href="#faq">
                                 <li>
-                                    FAQ
+                                    <FormattedMessage id='developers.faqTitle' />
                                 </li>
                             </a>
                         </SubNavigation>
@@ -58,40 +59,25 @@ var Developers = React.createClass({
                         <span className="nav-spacer"></span>
                         <h2>Projects</h2>
                         <p className="intro">
-                            The following projects are open source and available for any purpose.
+                            <FormattedMessage id='developers.projectsIntro' />
                         </p>
                         <FlexRow className="sidebar-row">
                             <div className="body-copy column">
-                                <h3>Scratch Blocks</h3>
+                                <h3><FormattedMessage id='developers.scratchBlocksTitle' /></h3>
                                 <p>
-                                    Scratch Blocks is a new development project for the next generation of{' '}
-                                    graphical programming blocks, based on a collaboration between Google and MIT’s{' '}
-                                    Scratch Team — building on Google’s{' '}
-                                    <a href="https://developers.google.com/blockly/">Blockly technology</a>{' '}
-                                    and informed by the Scratch Team’s expertise in developing creative{' '}
-                                    learning tools for young people. Scratch Blocks will provide a framework{' '}
-                                    for building programming blocks in both vertical (text-based) and horizontal{' '}
-                                    (icon-based) formats. You can access the code (currently as a{' '}
-                                    developer-preview) and documentation{' '}
-                                    <a href="https://github.com/llk/scratch-blocks">here</a>.
+                                    <FormattedHTMLMessage id='developers.scratchBlocksIntro' />
                                 </p>
                                 <p>
-                                    This first release includes code for Scratch’s Horizontal Grammar. Looking{' '}
-                                    ahead, we plan to release additional code including but not limited to the{' '}
-                                    Vertical Grammar (currently used by Scratch), a new Rendering Engine to support{' '}
-                                    sprites and graphic effects, and a new Audio Engine to support creation with{' '}
-                                    sound and music.
+                                    <FormattedMessage id='developers.scratchBlocksBody' />
                                 </p>
                             </div>
                             <img className="sidebar column" src="/images/developers/block-sketch.png" alt="blocks" />
                         </FlexRow>
                         <FlexRow className="sidebar-row">
                             <div className="body-copy column">
-                                <h3>Scratch WWW</h3>
+                                <h3><FormattedMessage id='developers.wwwTitle' /></h3>
                                 <p>
-                                    Scratch-www is a standalone web client for the Scratch Community, built{' '}
-                                    using React and Redux. Access the code and documentation{' '}
-                                    <a href="https://github.com/LLK/scratch-www">here</a>.
+                                    <FormattedHTMLMessage id='developers.wwwIntro' />
                                 </p>
                             </div>
 
@@ -101,38 +87,30 @@ var Developers = React.createClass({
 
                     <section id="principles">
                         <span className="nav-spacer"></span>
-                        <h2>Principles</h2>
+                        <h2><FormattedMessage id='developers.principlesTitle' /></h2>
                         <p className="intro">
-                            We created Scratch to empower young people to think creatively, reason systematically,{' '}
-                            and work collaboratively. We are guided by a set of <b>Learning Principles</b> and{' '}
-                            <b>Design Principles</b> that we hope you will follow as you develop new tools and{' '}
-                            technologies with Scratch Blocks.
+                            <FormattedMessage id='developers.principlesIntro' />
                         </p>
 
                         <FlexRow className="sidebar-row">
                             <div className="body-copy column">
-                                <h3>Learning Principles</h3>
+                                <h3><FormattedMessage id='developers.learningPrinciplesTitle' /></h3>
                                 <dl>
-                                    <dt>Projects</dt>
+                                    <dt><FormattedMessage id='developers.learningPrinciplesProjectsTitle' /></dt>
                                     <dd>
-                                        People learn best when they are actively working on projects — generating{' '}
-                                        new ideas, designing prototypes, making improvements and creating final{' '}
-                                        products.
+                                        <FormattedMessage id='developers.learningPrinciplesProjectsBody' />
                                     </dd>
-                                    <dt>Passion</dt>
+                                    <dt><FormattedMessage id='developers.learningPrinciplesPassionTitle' /></dt>
                                     <dd>
-                                        When people focus on things they care about, they work longer and harder,{' '}
-                                        persist in the face of challenges, and learn more in the process.
+                                        <FormattedMessage id='developers.learningPrinciplesPassionBody' />
                                     </dd>
-                                    <dt>Peers</dt>
+                                    <dt><FormattedMessage id='developers.learningPrinciplesPeersTitle' /></dt>
                                     <dd>
-                                        Learning flourishes as a social activity, with people sharing ideas,{' '}
-                                        collaborating on projects, and building on one another's work.
+                                        <FormattedMessage id='developers.learningPrinciplesPeersBody' />
                                     </dd>
-                                    <dt>Play</dt>
+                                    <dt><FormattedMessage id='developers.learningPrinciplesPlayTitle' /></dt>
                                     <dd>
-                                        Learning involves playful experimentation — trying new things, tinkering{' '}
-                                        with materials, testing boundaries, taking risks, iterating again and again.
+                                        <FormattedMessage id='developers.learningPrinciplesPlayBody' />
                                     </dd>
                                 </dl>
                             </div>
