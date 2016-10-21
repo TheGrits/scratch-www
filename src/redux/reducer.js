@@ -10,7 +10,8 @@ var appReducer = combineReducers({
     session: sessionReducer,
     permissions: permissionsReducer,
     conferenceSchedule: scheduleReducer,
-    conferenceDetails: detailsReducer
+    conferenceDetails: detailsReducer,
+    navigation: navigationReducer
 });
 
 module.exports = appReducer;
