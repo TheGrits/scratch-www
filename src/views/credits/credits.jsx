@@ -203,11 +203,11 @@ var Credits = React.createClass({
 
                 <h2><FormattedMessage id='credits.supportersTitle' /></h2>
                 <p><FormattedMessage id='credits.supportersFinancialHeader' /></p>
-                
                 <p><FormattedHTMLMessage id='credits.supportersFinancialBody' /></p>
-                <p><FormattedMessage id='credits.supportersServicesHeader' /></p>
                 
+                <p><FormattedMessage id='credits.supportersServicesHeader' /></p>
                 <p><FormattedHTMLMessage id='credits.supportersServicesBody' /></p>
+                
                 <p><FormattedMessage id='credits.supportersOpenHeader' /></p>
                 <p><FormattedHTMLMessage id='credits.supportersOpenBody' /></p>
             </div>
