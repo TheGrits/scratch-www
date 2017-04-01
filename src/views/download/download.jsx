@@ -135,8 +135,35 @@ var Download = React.createClass({
                             </div>
                         </FlexRow>
                     </section>
+                    
+                    <section id="updates">
+                        <span className="nav-spacer"></span>
+                        <h2><FormattedMessage id='download.updatesTitle' /></h2>
+                        <p><FormattedMessage id='download.updatesBody' /></p>
+                        <p><FormattedMessage id='download.currentVersion' /></p>
+                    </section>
+                    
+                    <section id="other">
+                        <span className="nav-spacer"></span>
+                        <h2><FormattedMessage id='download.otherVersionsTitle' /></h2>
+                        <p><FormattedHTMLMessage id='download.otherVersionsOlder' /></p>
+                        <p><FormattedHTMLMessage id='download.otherVersionsAdmin' /></p>
+                    </section>
+                    
+                    <section id="issues">
+                        <span className="nav-spacer"></span>
+                        <h2><FormattedMessage id='download.knownIssuesTitle' /></h2>
+                        <p><FormattedMessage id='download.knownIssuesOne' /></p>
+                        <p><FormattedMessage id='download.knownIssuesTwo' /></p>
+                        <p><FormattedHTMLMessage id='download.knownIssuesThree' /></p>
+                        <a href="https://scratch.mit.edu/discuss/3/">
+                            <FormattedMessage id='download.reportBugs' />
+                        </a>
+                    </section>
                 </div>
             </div>
         );
     }
 })
+
+render(<Page><Download /></Page>, document.getElementById('app'));
