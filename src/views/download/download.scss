@@ -49,4 +49,8 @@ $developer-spot: $ui-yellow;
             }
         }
     }
+    .inner {
+        border-bottom: 1px solid $ui-border;
+        padding-bottom: 2rem;
+    }
 }
