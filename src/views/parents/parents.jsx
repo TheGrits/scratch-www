@@ -12,6 +12,20 @@ var TitleBanner = require('../../components/title-banner/title-banner.jsx');
 require('./parents.scss');
 
 var Parents = React.createClass({
-  
+    type: 'Parents',
+    render: function () {
+        return (
+            <div className="parents">
+                <TitleBanner className="masthead">
+                    <div className="inner">
+                        <h1 className="title-banner-h1">
+                            <FormattedMessage id="parents.title" />
+                        </h1>
+                    </div>
+                </TitleBanner>
+            </div>
+        );
+    }
 });
+
 render(<Page><Parents /></Page>, document.getElementById('app'));
