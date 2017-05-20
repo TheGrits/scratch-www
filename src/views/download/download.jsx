@@ -59,10 +59,10 @@ var Download = React.createClass({
                         <section id="installation">
                             <span className="nav-spacer"></span>
                             <FlexRow className="three-col-row">
-                                <div class="installation column">
+                                <div className="installation-column">
                                     <h3><FormattedMessage id='download.airTitle' /></h3>
                                     <p><FormattedHTMLMessage id='download.airBody' /></p>
-                                    <ul class="installation-downloads">
+                                    <ul className="installation-downloads">
                                         <li className="installation-downloads-item">
                                             <FormattedMessage id='download.macOSX' /> -
                                             {' '}<a href="http://get.adobe.com/air/">
@@ -89,7 +89,7 @@ var Download = React.createClass({
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="installation column">
+                                <div className="installation-column">
                                     <h3><FormattedMessage id='download.offlineEditorTitle' /></h3>
                                     <p><FormattedMessage id='download.offlineEditorBody' /></p>
                                     <p>
@@ -117,7 +117,7 @@ var Download = React.createClass({
                                         </a>
                                     </p>
                                 </div>
-                                <div className="installation column">
+                                <div className="installation-column">
                                     <h3><FormattedMessage id='download.supportMaterialsTitle' /></h3>
                                     <p><FormattedMessage id='download.supportMaterialsBody' /></p>
                                     <p>
