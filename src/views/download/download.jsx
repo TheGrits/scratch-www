@@ -54,7 +54,7 @@ var Download = React.createClass({
                         </SubNavigation>
                     </div>
                 </TitleBanner>
-                <div className="content">
+                <div className="download-content">
                     <div className="inner">
                         <section id="installation">
                             <span className="nav-spacer"></span>
