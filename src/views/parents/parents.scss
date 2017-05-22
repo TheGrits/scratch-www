@@ -1,7 +1,7 @@
 @import "../../../colors";
 @import "../../../frameless";
 
-$teacher-spot: #ACE11B;
+$parent-spot: #ACE11B;
 $story-width: $cols3;
 
 #view {
@@ -23,7 +23,7 @@ $story-width: $cols3;
 
     .title-banner {
         &.masthead {
-            background-color: $teacher-spot;
+            background-color: $parent-spot;
             padding-bottom: 0;
 
             h1 {
@@ -65,28 +65,6 @@ $story-width: $cols3;
                     height: inherit;
                 }
             }
-
-            .band {
-                $band-color: #B8E63D;
-
-                margin-top: 2rem;
-                background-color: $band-color;
-                padding: 1rem 0;
-            }
-
-            .sub-nav {
-                text-align: left;
-
-                li {
-                    margin: 0 .5rem 0 0;
-                }
-            }
-
-        }
-
-        &.faq-banner {
-            margin-bottom: 0;
-            background-color: $ui-gray;
         }
     }
     section {
@@ -118,25 +96,6 @@ $story-width: $cols3;
     }
 }
 
-//6 columns
-@media only screen and (min-width: $mobile) and (max-width: $tablet - 1) {
-    $story-width: $cols3;
-
-    .flex-row {
-        &.sidebar-row {
-
-            .body-copy {
-                width: 100%;
-            }
-
-            .sidebar {
-                margin: 0 auto;
-            }
-        }
-    }
-}
-
-
 //8 columns
 @media only screen and (min-width: $tablet) and (max-width: $desktop - 1) {
     $story-width: $cols4;
@@ -144,10 +103,6 @@ $story-width: $cols3;
     .masthead {
         h1 {
             text-align: center;
-        }
-
-        .subnav {
-            justify-content: center;
         }
     }
 
@@ -170,10 +125,6 @@ $story-width: $cols3;
     .masthead {
         h1 {
             text-align: left;
-        }
-
-        .sub-nav {
-            justify-content: flex-start;
         }
     }
 }
