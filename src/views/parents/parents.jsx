@@ -34,17 +34,50 @@ var Parents = React.createClass({
                 </TitleBanner>
                 <div className="inner">
                     <FlexRow className="overview">
-                        <div className="overviewChild">
+                        <div>
                             <h2><FormattedMessage id="parents.learningTitle" /></h2>
                             <p><FormattedHTMLMessage id="parents.learningBody" /></p>
                         </div>
-                        <div className="overviewChild">
+                        <div>
                             <h2><FormattedMessage id="parents.communityTitle" /></h2>
                             <p><FormattedHTMLMessage id="parents.communityBody" /></p>
                         </div>
-                        <div className="overviewChild">
+                        <div>
                             <h2><FormattedMessage id="parents.questionsTitle" /></h2>
                             <p><FormattedHTMLMessage id="parents.questionsBody" /></p>
+                        </div>
+                    </FlexRow>
+                    <FlexRow className="faq">
+                        <div>
+                            <h3><FormattedMessage id="parents.ageQuestion" /></h3>
+                            <p><FormattedMessage id="parents.ageAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.resourcesQuestion" /></h3>
+                            <p><FormattedHTMLMessage id="parents.resourcesAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.communityQuestion" /></h3>
+                            <p><FormattedMessage id="parents.communityAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.guidelinesQuestion" /></h3>
+                            <p><FormattedHTMLMessage id="parents.guidelinesAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.privacyQuestion" /></h3>
+                            <p><FormattedHTMLMessage id="parents.privacyAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.offlineQuestion" /></h3>
+                            <p><FormattedHTMLMessage id="parents.offlineAnswer" /></p>
+                        </div>
+                        <div>
+                            <h3><FormattedMessage id="parents.feedbackQuestion" /></h3>
+                            <p><FormattedMessage id="parents.feedbackIntro" /></p>
+                            <p><FormattedHTMLMessage id="parents.feedbackOne" /></p>
+                            <p><FormattedHTMLMessage id="parents.feedbackTwo" /></p>
+                            <p><FormattedHTMLMessage id="parents.feedbackThree" /></p>
                         </div>
                     </FlexRow>
                 </div>
