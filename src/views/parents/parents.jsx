@@ -6,7 +6,6 @@ var FormattedMessage = require('react-intl').FormattedMessage;
 
 var Page = require('../../components/page/www/page.jsx');
 var FlexRow = require('../../components/flex-row/flex-row.jsx');
-var SubNavigation = require('../../components/subnavigation/subnavigation.jsx');
 var TitleBanner = require('../../components/title-banner/title-banner.jsx');
 
 require('./parents.scss');
