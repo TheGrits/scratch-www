@@ -8,7 +8,7 @@ $story-width: $cols3;
     padding: 0;
 }
 
-.educators {
+.parents {
     .intro {
         margin: 0;
     }
@@ -89,160 +89,8 @@ $story-width: $cols3;
             background-color: $ui-gray;
         }
     }
-
-    .general-usage {
-        justify-content: space-between;
-
-        p {
-            max-width: $cols4;
-        }
-    }
-
-    .educator-community {
-        margin-bottom: 2rem;
-        text-align: left;
-        justify-content: space-between;
-        align-items: flex-start;
-
-        div {
-            max-width: $cols6;
-        }
-    }
-
-    .guides-and-tutorials {
-        div {
-            max-width: $cols4;
-            text-align: center;
-        }
-    }
-
     section {
         margin-bottom: 3rem;
-    }
-
-    #in-practice,
-    #resources {
-        .nav-spacer {
-            display: block;
-            visibility: hidden;
-            margin-top: -50px; // height of  nav bar
-            height: 50px;
-        }
-    }
-
-
-    #in-practice {
-        border-bottom: 1px solid $ui-border;
-        padding-bottom: 2rem;
-
-        .stories {
-            margin: auto;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: row;
-        }
-
-        .story {
-            margin: 10px auto;
-            border: 1px solid $ui-border;
-            border-radius: 10px;
-            background-color: $ui-white;
-            box-sizing: border-box;
-
-            img {
-                border-top-left-radius: 9px;
-                border-top-right-radius: 9px;
-                width: 100%;
-            }
-
-            .story-info {
-                padding-top: 10px;
-                padding-left: 10px;
-
-                .name {
-                    margin: 0;
-                    line-height: initial;
-                    color: $ui-blue;
-                    font-size: initial;
-                    font-weight: 500;
-                }
-
-                p {
-                    margin: 10px 0;
-                    font-size: .75rem;
-                }
-            }
-        }
-    }
-
-    #resources {
-        h2 {
-            padding-bottom: 2rem;
-            text-align: center;
-        }
-
-        h3 {
-            font-weight: 300;
-        }
-
-        #guides-header {
-            text-align: center;
-        }
-    }
-
-    #teacher-accounts {
-        margin-bottom: -3px;
-        background-color: $teacher-spot;
-        padding: 50px 0;
-        width: 100%;
-        overflow-x: hidden;
-
-        .inner {
-            display: flex;
-            height: 100%;
-            align-items: center;
-        }
-
-        p {
-            margin: 0;
-            text-align: left;
-            color: $ui-white;
-
-            a {
-                border-bottom: 1px solid $ui-white;
-                color: $ui-white;
-            }
-        }
-
-        h2 {
-            margin: 0 0 2rem 0;
-            text-align: left;
-            color: $ui-white;
-        }
-
-        .teacher-account-buttons {
-            li {
-                border: 2px solid $ui-white;
-                padding: 16px;
-                font-size: 16px;
-                font-weight: 500;
-            }
-        }
-
-        #left {
-            width: $cols4;
-            max-width: $cols4;
-
-            text-align: left;
-
-            p {
-                margin-bottom: 3.5rem;
-            }
-        }
-
-        img {
-            width: $cols7;
-        }
     }
 }
 
