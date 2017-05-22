@@ -32,6 +32,22 @@ var Parents = React.createClass({
                         </FlexRow>
                     </div>
                 </TitleBanner>
+                <div className="inner">
+                    <FlexRow className="overview">
+                        <div className="overviewChild">
+                            <h2><FormattedMessage id="parents.learningTitle" /></h2>
+                            <p><FormattedHTMLMessage id="parents.learningBody" /></p>
+                        </div>
+                        <div className="overviewChild">
+                            <h2><FormattedMessage id="parents.communityTitle" /></h2>
+                            <p><FormattedHTMLMessage id="parents.communityBody" /></p>
+                        </div>
+                        <div className="overviewChild">
+                            <h2><FormattedMessage id="parents.questionsTitle" /></h2>
+                            <p><FormattedHTMLMessage id="parents.questionsBody" /></p>
+                        </div>
+                    </FlexRow>
+                </div>
             </div>
         );
     }
