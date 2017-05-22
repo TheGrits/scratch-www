@@ -21,6 +21,15 @@ var Parents = React.createClass({
                         <h1 className="title-banner-h1">
                             <FormattedMessage id="parents.title" />
                         </h1>
+                        <FlexRow className="masthead-info">
+                            <p className="title-banner-p intro">
+                                <FormattedMessage id="parents.intro" />
+                            </p>
+                            <div className="ted-talk">
+                                <iframe src="https://www.youtube.com/embed/uPSuG063jhA?border=0&wmode=transparent"
+                                    frameBorder="0" allowFullScreen></iframe>
+                            </div>
+                        </FlexRow>
                     </div>
                 </TitleBanner>
             </div>
