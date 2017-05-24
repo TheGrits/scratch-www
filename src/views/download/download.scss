@@ -74,6 +74,18 @@ $developer-spot: $ui-yellow;
         padding: 0;
     }
     
+    .three-col-row {
+        align-items: flex-start;
+    }
+    
+    section {
+        margin-bottom: 2rem;
+    }
+    
+    .mod-link {
+        color: white;
+    }
+    
     @media only screen and (max-width: $mobile - 1) {
         .inner {
             .installation-column {
