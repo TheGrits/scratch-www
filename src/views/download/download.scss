@@ -67,15 +67,12 @@ $developer-spot: $ui-yellow;
     
     .installation-downloads {
         list-style: none;
+        padding-left: 0;
     }
     
     .installation-downloads-item {
         margin: .25rem;
         padding: 0;
-    }
-    
-    .three-col-row {
-        align-items: flex-start;
     }
     
     section {
@@ -87,9 +84,12 @@ $developer-spot: $ui-yellow;
     }
     
     @media only screen and (max-width: $mobile - 1) {
+        p {
+            width: $cols3;
+        }
         .inner {
             .installation-column {
-                max-width: $cols2;
+                max-width: 100%;
             }
         }
     }
