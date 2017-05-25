@@ -1,7 +1,7 @@
 @import "../../colors";
 @import "../../frameless";
 
-$developer-spot: $ui-yellow;
+$developer-spot: $splash-blue;
 
 #view {
     padding: 0;
@@ -32,7 +32,7 @@ $developer-spot: $ui-yellow;
             }
 
             .band {
-                $band-color: hsla(55, 100, 70, .15);
+                $band-color: #3baddd;
                 
                 margin-top: 2rem;
                 background-color: $band-color;
